@@ -1,21 +1,21 @@
 const express = require("express");
 const dotenv = require("dotenv");
 dotenv.config();
-const core = require("cors");
-const aboutPageRouter = require("./app/aboutus/route");
+const cors = require("cors");
+const aboutPageRouter = require("./app/about_us/route");
+const contactPageRouter = require("./app/contact_us/route");
 const bodyParser = require("body-parser");
 const { connectToDB } = require("./utils/database.js");
 
-let app = express();
-app.use(
-  core({
-    origin: "http://localhost:3000",
-    optionsSuccessStatus: 200,
-  })
-);
-let port = process.env.PORT || 3000;
+const app = express();
+const port = process.env.PORT || 3001;
+
+app.use(cors({ origin: "http://localhost:3000", optionsSuccessStatus: 200 }));
 app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: false }));
+
 app.use("/", aboutPageRouter);
+app.use("/", contactPageRouter);
 
 connectToDB()
   .then(() => {

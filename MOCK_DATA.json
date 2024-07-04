@@ -1,7 +1,8 @@
 {
   "visionAndMission": {
     "title": "Our Vision and Mission",
-    "text": "At Luxe club, our mission is to revolutionize the travel experience by offering luxurious, culturally authentic, and halal-compliant journeys. We are dedicated to providing personalized, high-quality services that cater to the unique needs and values of our clients, ensuring every trip is memorable, enriching, and stress-free. Our vision is to be the leading provider of halal travel experiences, setting the industry standard for luxury, cultural authenticity, and exceptional service. We aspire to inspire and empower travelers to explore the world with confidence, knowing that their values and preferences are at the heart of every journey we craft."
+    "mission": "At Luxe club, our mission is to revolutionize the travel experience by offering luxurious, culturally authentic, and halal-compliant journeys. We are dedicated to providing personalized, high-quality services that cater to the unique needs and values of our clients, ensuring every trip is memorable, enriching, and stress-free.",
+    "vision": "Our vision is to be the leading provider of halal travel experiences, setting the industry standard for luxury, cultural authenticity, and exceptional service. We aspire to inspire and empower travelers to explore the world with confidence, knowing that their values and preferences are at the heart of every journey we craft. "
   },
   "halalTravelExperience": {
     "title": "Experience Halal Travel Like Never Before",
